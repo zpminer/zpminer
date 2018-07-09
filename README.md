@@ -11,6 +11,8 @@ Zen Protocol miner for GPU (AMD or NVidia) and CPU on Windows or Ubuntu. This mi
   - Yes, you need to provide some value as an argument on the command line, but it does not need to be your real address. Since zpminer currently only mines to your local wallet with your local coinbase address, the address set on the command line is not used. It's a place holder for the future when integration with pools has been completed.
 * When do I get paid?
   - Zpminer currently mines only to your wallet, so any blocks you find are immediately credited to your wallet because the found block uses your address as the coin base address for the block you found. Zen Protocol wallets won't let you spend those ZP until they have been confirmed 100 blocks, but that's not a feature that zpminer can control.
+* Why didn't I get paid yet?
+  - Zpminer currently is not integrated with any shared pool, so you only get paid when you find a full block. You keep all 50 zp when you find a block.
 * How do I set alternate mining urls?
   - u=http://localhost:11567
 
