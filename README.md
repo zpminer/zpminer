@@ -44,7 +44,7 @@ zpminer.exe <MinerAddress>.<OptionalWorkerId> <Option>=<OptionValue>
 ### Install dependencies
 
 ```
-sudo apt-get install libcpprest-dev libncurses5-dev libssl-dev unixodbc-dev g++ git
+sudo apt-get install libcpprest-dev libncurses5-dev libssl-dev unixodbc-dev g++ git libcurl4-gnutls-dev libjansson-dev
 ```
 
 ### NVidia Install CUDA9.1 (includes OpenCL)
