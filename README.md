@@ -1,5 +1,5 @@
 # ZpMiner
-Zen Protocol miner for GPU (AMD or NVidia) and CPU on Windows or Ubuntu. ZpMiner is free to use and has a minimum 1% dev fee.
+Zen Protocol miner for GPU (AMD or NVidia) and CPU on Windows or Ubuntu. ZpMiner is free to use and has a 1% dev fee.
 
 
 ## FAQ
@@ -7,8 +7,6 @@ Zen Protocol miner for GPU (AMD or NVidia) and CPU on Windows or Ubuntu. ZpMiner
   - Check if your GPU are on platform 0 or not. If your GPU are on platform 1 or 2, set p=1 or p=2. The default is p=0.
 * Can I cpu only mine with ZpMiner?
   - Yes, set d=NONE and c=4 or whatever CPU mining thread number you want. If it complains about missing OpenCL.dll, get that and drop it in the zpminer folder. The zpMiner release assumes you have OpenCL installed already.
-* How do I set the dev fee to 1%?
-  - Set the df argument to 1: df=1
 
 
 ## Windows
@@ -40,7 +38,7 @@ zpminer.exe <MinerAddress>.<OptionalWorkerId> <Option>=<OptionValue>
 * Cpu Mining Threads: Default is 0. c=4
 * PoolUrl: Default is stratum+tcp://zp-us-east.leafpool.com:8811. u=stratum+tcp://zp-us-east.leafpool.com:8811
 * SuffixMax: Default is 8192. Max is 65536. s=8192
-* DevFeePercent: Default is 2. Available 1 and up. df=1
+* DevFeePercent: Default is 1. Available 1 and up. df=2
 * Stratum Password: Deafult is x. x=password
 
 ## Linux
