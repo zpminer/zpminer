@@ -76,8 +76,8 @@ wget https://github.com/zpminer/zpminer/releases/download/2.1/zpminer_Ubuntu17_2
 tar -xzvf zpminer_Ubuntu17_2.1.tar.gz
 
 - Ubuntu18
-wget https://github.com/zpminer/zpminer/releases/download/2.2/zpminer_Ubuntu18_2.2.tar.gz
-tar -xzvf zpminer_Ubuntu18_2.2.tar.gz
+wget https://github.com/zpminer/zpminer/releases/download/2.1/zpminer_Ubuntu18_2.1.tar.gz
+tar -xzvf zpminer_Ubuntu18_2.1.tar.gz
 ```
 
 ### Run
