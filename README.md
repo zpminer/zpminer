@@ -26,7 +26,7 @@ Zen Protocol miner for GPU (AMD or NVidia) and CPU on Windows or Ubuntu. ZpMiner
 
 Example:
 ```
-zpminer.exe zen1q47hqdlpn9yuq77dj6t23f9yu9apms4286qu6j5q3nc9xd33sq8cs0mldqv u=stratum+tcp://zp-work.pandapool.pw:8811
+zpminer.exe zen1q47hqdlpn9yuq77dj6t23f9yu9apms4286qu6j5q3nc9xd33sq8cs0mldqv u=stratum+tcp://zp-work.pandapool.pw:8822
 ```
 
 Template:
@@ -36,7 +36,7 @@ zpminer.exe <MinerAddress>.<OptionalWorkerId> <Option>=<OptionValue>
 * DeviceIds: Default is ALL, d=0,1,2,3,4 or d=all
 * PlatformId: Default is 0. p=0
 * Cpu Mining Threads: Default is 0. c=4
-* PoolUrl: Default is stratum+tcp://zp-work.pandapool.pw:8811. u=stratum+tcp://zp-work.pandapool.pw:8811
+* PoolUrl: Default is stratum+tcp://zp-work.pandapool.pw:8822. u=stratum+tcp://zp-work.pandapool.pw:8822
 * SuffixMax: Default is 8192. Max is 65536. s=8192
 * DevFeePercent: Default is 0.5. Available 0.5 and up. df=1
 * Stratum Password: Deafult is x. x=password
@@ -68,21 +68,21 @@ sudo apt-get install libclc-amdgcn mesa-opencl-icd
 
 ```
 - Ubuntu16
-wget https://github.com/zpminer/zpminer/releases/download/2.1/zpminer_Ubuntu16_2.1.tar.gz
-tar -xzvf zpminer_Ubuntu16_2.1.tar.gz
+wget https://github.com/zpminer/zpminer/releases/download/2.2/zpminer_Ubuntu16_2.2.tar.gz
+tar -xzvf zpminer_Ubuntu16_2.2.tar.gz
 
 - Ubuntu17
-wget https://github.com/zpminer/zpminer/releases/download/2.1/zpminer_Ubuntu17_2.1.tar.gz
-tar -xzvf zpminer_Ubuntu17_2.1.tar.gz
+wget https://github.com/zpminer/zpminer/releases/download/2.2/zpminer_Ubuntu17_2.2.tar.gz
+tar -xzvf zpminer_Ubuntu17_2.2.tar.gz
 
 - Ubuntu18
-wget https://github.com/zpminer/zpminer/releases/download/2.1/zpminer_Ubuntu18_2.1.tar.gz
-tar -xzvf zpminer_Ubuntu18_2.1.tar.gz
+wget https://github.com/zpminer/zpminer/releases/download/2.2/zpminer_Ubuntu18_2.2.tar.gz
+tar -xzvf zpminer_Ubuntu18_2.2.tar.gz
 ```
 
 ### Run
 
 Example:
 ```
-./zpminer zen1q47hqdlpn9yuq77dj6t23f9yu9apms4286qu6j5q3nc9xd33sq8cs0mldqv u=stratum+tcp://zp-work.pandapool.pw:8811
+./zpminer zen1q47hqdlpn9yuq77dj6t23f9yu9apms4286qu6j5q3nc9xd33sq8cs0mldqv u=stratum+tcp://zp-work.pandapool.pw:8822
 ```
