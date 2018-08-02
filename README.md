@@ -26,7 +26,7 @@ Zen Protocol miner for GPU (AMD or NVidia) and CPU on Windows or Ubuntu. ZpMiner
 
 Example:
 ```
-zpminer.exe zen1q47hqdlpn9yuq77dj6t23f9yu9apms4286qu6j5q3nc9xd33sq8cs0mldqv u=stratum+tcp://zp-work.pandapool.pw:8822
+zpminer.exe zen1q47hqdlpn9yuq77dj6t23f9yu9apms4286qu6j5q3nc9xd33sq8cs0mldqv
 ```
 
 Template:
@@ -84,5 +84,5 @@ tar -xzvf zpminer_Ubuntu18_2.2.tar.gz
 
 Example:
 ```
-./zpminer zen1q47hqdlpn9yuq77dj6t23f9yu9apms4286qu6j5q3nc9xd33sq8cs0mldqv u=stratum+tcp://zp-work.pandapool.pw:8822
+./zpminer zen1q47hqdlpn9yuq77dj6t23f9yu9apms4286qu6j5q3nc9xd33sq8cs0mldqv
 ```
